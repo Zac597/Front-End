@@ -48,7 +48,7 @@
 }
 
 .form {
-    padding: 10px;
+    padding: 20px;
     width: 400px;
     height: calc(100% + 30px);
     float: right;
@@ -92,6 +92,11 @@
     width: 344px;
     height: 55px;
     border: 1px solid #CCC;
+}
+
+.input-container input[type=text]{
+    outline: 0;
+    padding: 8px 10px;
 }
 
 .form .submit-container {
