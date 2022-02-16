@@ -1,0 +1,262 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: lato;
+}
+
+.center {
+    max-width: 1100px;
+    padding: 0.2%;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+header {
+    background: #3B5998;
+    padding: 8px 0;
+}
+
+.logo {
+    float: left;
+    color: white;
+}
+
+.logo h2 {
+    font-size: 29px;
+    font-weight: normal;
+}
+
+form.form-login {
+    float: right;
+}
+
+.form-login .form-element {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.form-element p {
+    color: white;   
+    font-size: 14px;
+}
+
+.form-element input[type="email"],
+.form-element input[type="password"] {
+    border: 0;
+    margin-top: 4px;
+    height: 22px;
+    padding-left: 3px;
+}
+
+.form-element input[type="submit"]{
+    cursor:pointer;
+    border:0;
+    border: none;
+    background: #3a6cd6;
+    color: white;
+    padding: 3px 5px;
+}
+
+.form-element input[type="submit"]:hover{
+    background: #1f4ba6;
+}
+
+section.main {
+    background: linear-gradient(white, #D3D8E8);
+    padding: 40px 0;
+}
+
+.img-conection {
+    float: left;
+    width: 60%;
+}
+
+.img-conection img {
+    max-width: 100%;
+}
+
+.img-conection img h3{
+    max-width: 460px;
+    font-size: 20px;
+    color: #0e385f;
+}
+
+.open-account{
+    width: 40%;
+    float: left;
+}
+
+.open-account h2 {
+    color: #333333;
+    font-size: 35px;
+}
+
+.open-account h3 {
+    color: #1e1e1e;
+    font-size: 19px;
+    margin-top: 8px;
+    font-weight: normal;
+}
+
+form.create-account {
+    margin-top: 10px;
+}
+
+form.create-account select.birth{
+    font-size: 18px;
+    float: left;
+    padding: 3px 7px;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    outline: none;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+.w50 {
+    width: 50%;
+    padding: 0 5px;
+    float: left;
+}
+
+.w100 {
+    width: 100%;
+    float: left;
+    padding: 0 5px;
+}
+
+form.create-account input {
+    width: 100%;
+    margin-top: 8px;
+}
+
+form.create-account input[type="email"],
+form.create-account input[type="text"],
+form.create-account input[type="password"]{
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid #a5dcff;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+form.create-account input[type=submit]{
+    height: 40px;
+    background: linear-gradient(#67ae55, #578843);
+    color: white;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 19px;
+    max-width: 200px;
+}
+
+form.create-account input[type=submit]:hover{
+    background: #67ae55;
+}
+
+form .w100 h2 {
+    margin-top: 10px;
+    color: #1d2129;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+form .w100 h3 {
+    color: #90949c;
+    font-weight: bold;
+}
+
+form select.birth {
+    float: left;
+    margin-top: 5px;
+    padding: 2px;
+}
+
+.input-radio {
+    float: left;
+    margin: 8px 10px;
+}
+
+.input-radio h2{
+    display: inline-block;
+}
+
+.input-radio input[type=radio]{
+    width: auto !important;
+    display: inline-block;
+}
+
+section.language {
+    padding: 30px 0;
+}
+
+section.language a {
+    padding-right: 10px;
+    font-size: 12px;
+    color: #365899;
+    text-decoration: none;
+}
+
+section.language a.selected-language {
+    color: #737373;
+}
+
+section.language .center {
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+@media screen and (max-width:768px){
+
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .form-login{
+        margin-top: 17px;
+        display: inline-block;
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .form-login .form-element {
+        display: block;
+        margin: 3px 0;
+    }
+    
+    .form-element p {
+        color: white;   
+        font-size: 14px;
+    }
+
+    .form-element input[type="email"],
+    .form-element input[type="password"] {
+        border: 0;
+        margin-top: 4px;
+        height: 22px;
+        padding-left: 3px;
+        width: 90%;
+        max-width: 320px;
+    }
+
+    .form-element input[type=submit]{
+        width: 100px;
+    }
+
+    .img-conection{
+        display: none;
+    }
+
+    .open-account{
+        width: 100%;
+    }
+}
